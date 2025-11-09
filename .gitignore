@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment variables (SECRETS)
+.env
+
+# Bot Data & Sessions (Keep this local!)
+data/
+auth_info_baileys/
+
+# Logs
+npm-debug.log
+*.log
+
+# OS junk
+Thumbs.db
+.DS_Store
