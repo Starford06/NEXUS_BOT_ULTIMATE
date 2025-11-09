@@ -1,50 +1,52 @@
-Module,Description
-🛰️ Multi-Session,Run multiple WhatsApp numbers from a single bot instance.
-🖥️ Cyber Dashboard,Real-time web control panel for managing sessions and logs.
-🧠 Neural AI,"Gemini-powered chat, image recognition (.ocr), and text analysis."
-🛡️ Group Security,"Anti-delete, ViewOnce revealer, warn system, and mass-management tools."
-💻 Dev Toolkit,"Remote code execution (.run), regex testing, and API tools."
-🎉 Fun Zone,"Memes, matchmaking (.ship), games, and AI-generated roasts."
+🌟 NEXUS BOT ULTIMATE 🤖
+The Next-Generation Multi-Session WhatsApp AutomatonA powerful, fully-featured, and multi-session WhatsApp userbot built on Baileys and Node.js.
+Designed for power users, developers, and group administrators.
+✨ KEY FEATURES
+ModuleDescription🛰️ 
+Multi-SessionRun-multiple WhatsApp numbers from a single bot instance.
+🧠 Neural AIGemini-powered chat, image recognition (.ocr), and text analysis.
+🛡️ Group SecurityAnti-delete, ViewOnce revealer, warn system, and mass-management tools.
+💻 Dev ToolkitRemote code execution (.run), regex testing, and API tools.
+🎉 Fun ZoneMemes, matchmaking (.ship), games, and AI-generated roasts.
 ⚙️ PREREQUISITES
 Before you begin, ensure you have the following:
 
-Node.js (v18 or higher)
+1. Node.js (v18 or higher)
 
-Git
+2. Git
 
-WhatsApp Account (linked via QR or Pairing Code)
+3. WhatsApp Account (linked via QR or Pairing Code)
 
 🚀 DEPLOYMENT INSTRUCTIONS
+
 📱 Option 1: Termux (Android)
+
 Run these commands one by one in Termux:
-
-Bash
-
 # 1. Update system and install dependencies
 pkg update && pkg upgrade -y
 pkg install nodejs git ffmpeg libwebp -y
+# 2. Fork the repository
 
-# 2. Clone the repository
+# 3. Clone the repository
 git clone https://github.com/YOUR_USERNAME/NEXUS_BOT_ULTIMATE.git
 cd NEXUS_BOT_ULTIMATE
 
-# 3. Install bot dependencies
+# 4. Install bot dependencies
 npm install
 
-# 4. Configure your keys (See Configuration section below)
+# 5. Configure your keys (See Configuration section below)
 nano src/index.js  # Use nano to edit your settings
 
-# 5. Start the bot
+# 6. Start the bot
 npm start
+
 💻 Option 2: PowerShell (Windows)
-Install Node.js: Download and install from nodejs.org.
 
-Open PowerShell in the folder where you want the bot.
+1. Install Node.js: Download and install from nodejs.org.
 
-Run these commands:
+2. Open PowerShell in the folder where you want the bot.
 
-PowerShell
-
+3. Run these commands:
 # 1. Clone the repo (or download ZIP and extract)
 git clone https://github.com/YOUR_USERNAME/NEXUS_BOT_ULTIMATE.git
 cd NEXUS_BOT_ULTIMATE
@@ -59,3 +61,21 @@ echo "pause" >> start.bat
 
 # 4. Start the bot
 .\start.bat
+
+🛠️ CONFIGURATION
+Open src/index.js and edit the configuration section at the top before running:
+
+// 👇👇👇 IMPORTANT SETTINGS 👇👇👇
+global.OWNER_ID = "2547XXXXXXXX@s.whatsapp.net"; // Your phone number
+global.TEMP_MAIL_KEY = "YOUR_API_KEY_HERE";      // Get from temp-mail.io
+global.GOOGLE_API_KEY = "YOUR_GEMINI_KEY";       // Get from Google AI Studio
+// 👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆
+
+🎮 USAGE
+1. Run the bot.
+2. Scan the QR code that appears in the terminal
+3. .Type .menu in WhatsApp to see all commands!
+
+AND VOILA!!!!
+ENJOY MY NEXUS BOT ULTIMATE
+SHARE TO YOUR FRIENDS AND DON'T FORGET TO FORK THE REPOSITORY
